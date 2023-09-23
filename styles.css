@@ -1,0 +1,75 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #CDCDCD;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+h1{
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+.large-input::placeholder {
+    color: #000; /* Replace with your desired color */
+}
+input {
+    width: 1226px;
+    height: 50px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #D9D9D9;
+    
+}
+#btn{
+    width: 217px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-left:15px;
+}
+header {
+    background-color: #CDCDCD;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 2px solid #000;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+/* Your existing styles */
